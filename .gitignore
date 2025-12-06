@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ml_env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+jupyter_output.log
+jupyter_temp_output.log
+jupyter_temp_error.log
+jupyter_startup.log
+
+# Data (keep structure, ignore large files)
+data/raw/*.csv
+data/raw/*.txt
+data/processed/*.csv
+data/interim/*.csv
+!data/raw/house_prices/README.txt
+
+# Models (keep structure, ignore model files)
+models/checkpoints/*.h5
+models/checkpoints/*.pkl
+models/checkpoints/*.pth
+models/final/*.h5
+models/final/*.pkl
+models/final/*.pth
+models/experiments/*.h5
+models/experiments/*.pkl
+models/experiments/*.pth
+
+# Outputs
+outputs/logs/*.log
+outputs/logs/*.txt
+outputs/tensorboard/events.*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Keep directory structure
+!.gitkeep
